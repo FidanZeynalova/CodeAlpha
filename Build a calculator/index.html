@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <script type="module" src="./script.js"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="Calculator">
+        <h2>Code<span style="color: #0606d9ee;"> Alpha </span></h2>
+        <input type="text" id="display" placeholder="0" readonly>
+
+        <div class="buttons">
+            <div class="button">
+                <button class="clear-btn" data-action="clear">AC</button>
+                <button>7</button>
+                <button>4</button>
+                <button>1</button>
+                <button>00</button>
+            </div>
+            <div class="button">
+                <button class="clear-btn" data-action="delete">Del</button>
+                <button>8</button>
+                <button>5</button>
+                <button>2</button>
+                <button>0</button>
+            </div>
+            <div class="button">
+                <button data-operator="/">/</button>
+                <button>9</button>
+                <button>6</button>
+                <button>3</button>
+                <button>.</button>
+            </div>
+            <div class="button">
+                <button data-operator="*">*</button>
+                <button data-operator="-">-</button>
+                <button data-operator="+">+</button>
+                <button class="equals-btn" data-action="equals">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

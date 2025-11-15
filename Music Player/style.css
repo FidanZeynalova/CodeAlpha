@@ -225,7 +225,6 @@ body {
   width: 8px;
 }
 
-
 .playlist-item {
   padding: 14px;
   cursor: pointer;
@@ -239,8 +238,6 @@ body {
   border: 1px solid transparent;
 }
 
-
-
 .playlist-item.active {
   background: linear-gradient(
     135deg,
@@ -250,8 +247,6 @@ body {
   border: 1px solid rgba(30, 144, 255, 0.5);
   box-shadow: 0 5px 20px rgba(30, 144, 255, 0.3);
 }
-
-
 
 .playlist-item-title {
   font-weight: 600;

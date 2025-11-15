@@ -225,15 +225,6 @@ body {
   width: 8px;
 }
 
-.playlist::-webkit-scrollbar-track {
-  background: rgba(30, 144, 255, 0.05);
-  border-radius: 4px;
-}
-
-.playlist::-webkit-scrollbar-thumb {
-  background: linear-gradient(135deg, #1e90ff 0%, #4169e1 100%);
-  border-radius: 4px;
-}
 
 .playlist-item {
   padding: 14px;
@@ -248,11 +239,7 @@ body {
   border: 1px solid transparent;
 }
 
-.playlist-item:hover {
-  background: rgba(30, 144, 255, 0.1);
-  border: 1px solid rgba(30, 144, 255, 0.3);
-  transform: translateX(5px);
-}
+
 
 .playlist-item.active {
   background: linear-gradient(
@@ -264,13 +251,7 @@ body {
   box-shadow: 0 5px 20px rgba(30, 144, 255, 0.3);
 }
 
-.playlist-item.active .playlist-item-title {
-  color: #1e90ff;
-}
 
-.playlist-item-info {
-  flex: 1;
-}
 
 .playlist-item-title {
   font-weight: 600;

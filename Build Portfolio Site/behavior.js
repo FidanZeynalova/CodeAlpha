@@ -1,5 +1,5 @@
 // home section changing word
-const words = ["Frontend-oriented Fullstack Developer", "Frontend Specialist", "Fullstack Developer", "Software Development", "Tailwind Fan", "Creative Coder", "Next.js Lover"];
+const words = ["Frontend-oriented Fullstack Developer", "Frontend Specialist", "Fullstack Developer", "Software Development", "Creative Coder",];
 let index = 0;
 const wordSpan = document.getElementById("changing-word");
 function changeWord() {
